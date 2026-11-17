@@ -1,0 +1,1 @@
+# variant_20_laba_10
