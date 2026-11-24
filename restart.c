@@ -23,7 +23,7 @@ int **create_matrix(int n, int m) {
         }
     }
 
-    return a;
+    return a; //возвращаем указатель
 }
 
 // Заполнение случайными числами
