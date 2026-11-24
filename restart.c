@@ -73,7 +73,7 @@ int count_negative(int **a, int n, int m) {
     return count;
 }
 
-// Освобождение памяти
+// Освобождение памятикаждой строки,а после массив указателей
 void free_matrix(int **a, int n) {
     for (int i = 0; i < n; i++) {
         free(a[i]);
